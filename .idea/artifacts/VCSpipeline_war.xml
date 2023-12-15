@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="VCSpipeline:war">
+    <output-path>$PROJECT_DIR$/VCSpipeline/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>VCSpipeline</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="${project.artifactId}-${project.version}.war">
+      <element id="artifact" artifact-name="VCSpipeline:war exploded" />
+    </root>
+  </artifact>
+</component>
